@@ -1,0 +1,296 @@
+NAME
+  clr - clear the terminal screen
+
+SYNOPSIS
+  clr
+
+DESCRIPTION
+  clr clears the your terminal if this is possible.
+
+OPTIONS
+  No options needed.
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Clear_(Unix)>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information.
+
+
+NAME
+  pwd - print name of current / working directory.
+
+SYNOPSIS
+  pwd
+
+DESCRIPTION
+  pwd prints the full path of the current working directory.
+
+OPTIONS
+  No options needed.
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Pwd>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information.
+
+
+NAME
+  cd - changes directory to specified directory.
+
+SYNOPSIS
+  cd [DIRECTORY]
+
+DESCRIPTION
+  cd changes directory to specified. If no argument is present, cd
+  reports the current working directory
+
+OPTIONS
+  ..
+    changes to parent directory.
+
+  [DIRECTORY]
+    changes to DIRECTORY
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Cd_(command)>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information.
+
+
+NAME
+  dir - list contents of directory
+
+SYNOPSIS
+  dir [OPTION] ...
+
+DESCRIPTION
+  dir lists all the files and sub-directories in your current working directory.
+
+OPTIONS
+  -a lists all entries including hidden files.
+
+  -l uses a long listing format.
+
+  -s sorts by file size, largest to smallest.
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Ls>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information
+
+
+NAME
+  echo - displays a line of text followed by a new line
+
+SYNOPSIS
+  echo [STRING]
+
+DESCRIPTION
+  echo prints the STRING to] standard output
+
+OPTIONS
+  No options needed
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Echo_(command)>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information
+
+
+NAME
+  help - an interface to the on-line reference manuals
+
+SYNOPSIS
+  help [COMMAND]
+
+DESCRIPTION
+  help is the system's manual pager.  Each page argument given to man is normally the name of a program, utility or function.
+  The manual page associated with each of these arguments is then found and displayed.  A section, if provided,  will  direct
+  man to look only in that section of the manual.  The default action is to search in all of the available sections following
+  a pre-defined order by  default,  unless  overridden  by  the  SECTION  directive  in
+
+OPTIONS
+  No options needed.
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Man_page>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information
+
+
+NAME
+  pause - pause operation of the shell until <ENTER> is pressed
+
+SYNOPSIS
+  pause
+
+DESCRIPTION
+  pause puts the current operation of the shell on hold until user presses <ENTER>
+
+OPTIONS
+  No options needed.
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Wait_(command)>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information
+
+
+NAME
+  quit - quit the shell
+
+SYNOPSIS
+  quit
+
+DESCRIPTION
+  quit
+
+OPTIONS
+  No options needed.
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Kill_(command)>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information.
+
+
+NAME
+  nano
+
+SYNOPSIS
+  nano [FILENAME]
+
+DESCRIPTION
+  nano is the small and friendly core editor of this shell program.
+
+OPTIONS
+  No options needed.
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/GNU_nano>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information.
+
+
+NAME
+  environ prints all or part of environment
+
+SYNOPSIS
+  environ
+
+DESCRIPTION
+  environ prints the values of the specified environment variable(s).
+
+OPTIONS
+  No options needed.
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Environment_variable>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information.
+
+
+NAME
+  mv - move or rename files
+
+SYNOPSIS
+  mv [OPTION] [DESTINATION]
+
+DESCRIPTION
+  mv moves files and directories into other directories, including the parent
+  directory. If you provide no [DESTINATION] and file or directory you
+  are trying to move already exists, the system will assume you want to rename
+  the file or directory and will allow you to do so.
+
+OPTIONS
+  [FILENAME] You will move the file [FILENAME]
+
+  [DIRECTORY] You will move the directory [DIRECTORY]
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Mv>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information.
+
+
+NAME
+  rm - remove files or directories
+
+SYNOPSIS
+  rm [OPTION]... [FILE]
+
+DESCRIPTION
+  rm removes files specified by default but if -r option is used you can remove
+  directories along with all their contents.
+
+OPTIONS
+  -f ignore nonexistent files and arguments, never prompt
+
+  -r remove directories and their contents recursively
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Rm_(Unix)>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information.
+
+
+NAME
+  mkdir - make directory
+
+SYNOPSIS
+  mkdir [DIRECTORY]
+
+DESCRIPTION
+  mkdir creates a directory with specified name , if it does not already exist.
+
+OPTIONS
+  No options needed.
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Mkdir>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information.
+
+
+NAME
+  cat - print contents of a file to standard output
+
+SYNOPSIS
+  cat [FILENAME]
+
+DESCRIPTION
+  cat prints contents of [FILENAME] to standard output
+
+OPTIONS
+  No options needed.
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Cat_(Unix)>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information.
+
+
+NAME
+  bash - GNU Bourne-Again SHell
+
+SYNOPSIS
+  bash
+
+DESCRIPTION
+  bash is an sh-compatible language interpreter that executes commands read
+  from the standard input or from a file. Bash is intended to be an conformant
+  implementation of the shell and utilities portion of the IEE POSIX
+  specification.
+
+OPTIONS
+  No options needed.
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Bash_(Unix_shell)>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information.
+
+
+NAME
+  zsh - the Z shell
+
+SYNOPSIS
+  zsh
+
+DESCRIPTION
+  zsh is a UNIX command interpreter (shell) usable as an interactive login
+  shell and as a shell script command processor. 
+
+OPTIONS
+  No options needed.
+
+SEE ALSO
+  Full documentation at: <https://en.wikipedia.org/wiki/Z_shell>
+  or contact nicolas.oyeleye2@mail.dcu.ie for more information.
+
+.
